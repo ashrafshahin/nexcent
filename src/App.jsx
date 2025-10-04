@@ -9,6 +9,11 @@ import Manage from './components/manage/Manage'
 import Learn from './components/learn/Learn'
 import Design from './components/design/Design'
 import Help from './components/help/Help'
+import Customer from './components/customer/Customer'
+
+import Blog from './components/blog/Blog'
+import Contact from './components/contact/Contact'
+import Footer from './components/footer/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,8 +26,12 @@ function App() {
       <Manage />
       <Learn />
       <Help />
-      
       <Design />
+      
+      <Customer />
+      <Blog />
+      <Contact />
+      <Footer />
       
 
     </div>
