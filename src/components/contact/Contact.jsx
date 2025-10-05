@@ -10,9 +10,9 @@ const Contact = () => {
           <Container>
               <div className='text-center'>
                   <h2 className='w-[887px] mx-auto font-semibold text-[64px] text-[#263238]'>Pellentesque suscipit <br /> fringilla libero eu.</h2>
-                  <Button>
+          <Button className='inline-block'>
                       <div className='flex justify-center items-center'>
-                          <p className=' font-semibold text-[20px] text-white mr-2 '>Get a Demo</p>
+                          <p className=' font-semibold text-[20px] text-white mr-2  '>Get a Demo</p>
                         < FaLongArrowAltRight className='text-white font-semibold text-[20px]' />
                     </div>
                   </Button>
