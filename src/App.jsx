@@ -14,14 +14,17 @@ import Customer from './components/customer/Customer'
 import Blog from './components/blog/Blog'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+import BannerSlider from './components/banner/BannerSlider'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div>
-     <Header/>
-     <Banner/>
+      <Header />
+      <BannerSlider />
+      
+     {/* <Banner/> */}
      <Client/>
       <Manage />
       <Learn />

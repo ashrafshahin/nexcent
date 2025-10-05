@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from '../layouts/Container'
 
-import learn from "../images/design.png"
+import design from "../images/design.png"
 import Button from '../layouts/Button'
 
 const Design = () => {
@@ -9,7 +9,7 @@ const Design = () => {
       <Container>
           <div className='py-10 flex justify-between items-center'>
               <div>
-                  <img src={learn} alt="" />
+                  <img src={design} alt="" />
               </div>
               <div className='w-[50%]  '>
                   <div>

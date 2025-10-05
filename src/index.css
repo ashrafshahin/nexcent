@@ -9,7 +9,12 @@
   --color-header: #4D4D4D;
   --color-pera: #717171;
 }
-
+.swiper-button-prev{
+  display: none !important;
+}
+.swiper-button-next{
+  display: none !important;
+}
 
 
 @import "tailwindcss";
