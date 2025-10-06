@@ -11,10 +11,10 @@ import client6 from "../images/client6.png"
 const Client = () => {
   return (
     <Container>
-      <div className='py-[40px] items-center text-center'>
-        <h2 className='font-semibold text-[36px] text-header mb-4'>Our Clients</h2>
-        <p className='text-4 text-pera mb-4'>We have been working with some Fortune 500+ clients</p>
-        <div className='py-6 flex justify-between items-center'>
+      <div className='py-[40px] md:items-center md:text-center'>
+        <h2 className='font-semibold text-[20px] md:text-[36px] text-header mb-4'>Our Clients</h2>
+        <p className='w-[350px] md:w-full text-4 text-pera mb-4'>We have been working with some Fortune 500+ clients</p>
+        <div className='py-6 flex md:justify-between items-center'>
           <img src={client1} alt="" />
           <img src={client2} alt="" />
           <img src={client3} alt="" />

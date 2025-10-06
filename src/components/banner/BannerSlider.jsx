@@ -27,8 +27,8 @@ const BannerSlider = () => {
                   spaceBetween={50}
                   slidesPerView={1}
                   loop={true}
-                  autoplay={{
-                      delay: 3000,
+                autoplay={{
+                      delay: 5000,
                       pauseOnMouseEnter: false,
                   }}
                   navigation
@@ -38,28 +38,28 @@ const BannerSlider = () => {
                   onSlideChange={() => console.log('slide change')}
               >
                   <SwiperSlide>
-                      <div className="  font-primary py-[96px] flex justify-between items-center">
+                      <div className="font-primary py-6 md:py-[96px] md:flex justify-between items-center">
                           <div className='w-[60%]'>
-                              <h1 className='font-semibold text-[64px] text-[#4D4D4D] mb-4 '>Lessons and insights <span className='text-green-500'>from 8 years</span></h1>
-                              <p className='text-4 text-[#717171]'>Where to grow your business as a photographer: site or social media?</p>
+                              <h1 className='font-semibold text-[20px] md:text-[64px] text-[#4D4D4D] mb-4 '>Lessons and insights <span className='text-primary'>from 8 years</span></h1>
+                              <p className='w-[350px] md:w-full text-[12px] md:text-[16px] text-[#717171]'>Where to grow your business as a photographer: site or social media?</p>
                               <Button className='px-[32px] py-[14px] inline-block mt-[32px]'>
                                   <p >Register</p>
                               </Button>
                           </div>
                           <div className=''>
-                              <img src={banner} alt="" />
+                              <img className='w-[250px] md:w-full mt-8 md:mt-0' src={banner} alt="" />
                           </div>
                       </div>
                   </SwiperSlide>
                   <SwiperSlide>
-                      <div className='py-10 flex justify-between items-center'>
+                      <div className='py-10 md:flex justify-between items-center'>
                           <div>
-                              <img src={learn} alt="" />
+                              <img className='w-[250px] md:w-full mb-4 md:mb-0' src={learn} alt="" />
                           </div>
                           <div className='w-[50%]  '>
                               <div>
-                                  <h2 className=' font-semibold text-[36px] text-header justify-start'>The unseen of spending three years at Pixelgrade</h2>
-                                  <p className='mt-4 mb-8 text-[14px] text-pera'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
+                                  <h2 className=' font-semibold text-[16px] md:text-[36px] text-header justify-start'>The unseen of spending three years at Pixelgrade</h2>
+                                  <p className='w-[350px] md:w-full mt-4 mb-8 text-[12px] md:text-[14px] text-pera'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam aperiam quae illum delectus laborum, numquam velit enim aut fugiat dicta temporibus nam eum nesciunt impedit, voluptatibus optio iusto voluptate vel.  </p>
                                   <Button className='inline-block rounded-sm'>
                                       <p>Learn More</p>
                                   </Button>
@@ -69,14 +69,14 @@ const BannerSlider = () => {
                       </div>
                   </SwiperSlide>
                   <SwiperSlide>
-                      <div className='py-10 flex justify-between items-center'>
+                      <div className='py-10 md:flex justify-between items-center'>
                           <div>
-                              <img src={design} alt="" />
+                              <img className='w-[250px] md:w-full mb-4 md:mb-0' src={design} alt="" />
                           </div>
                           <div className='w-[50%]  '>
                               <div>
-                                  <h2 className=' font-semibold text-[36px] text-header justify-start'>How to design your site footer like we did</h2>
-                                  <p className='mt-4 mb-8 text-[14px] text-pera'>Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
+                                  <h2 className=' font-semibold text-[16px] md:text-[36px] text-header justify-start'>How to design your site footer like we did</h2>
+                                  <p className='w-[350px] md:w-full mt-4 mb-8 text-[12px] md:text-[14px] text-pera'>Donec a eros justo. Fusce egestas tristique ultrices. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam quis iusto at quo quod libero unde sit ullam, est aspernatur impedit autem asperiores dolor, error vitae consequatur accusamus deserunt modi. </p>
                                   <Button className='inline-block rounded-sm'>
                                       <p>Learn More</p>
                                   </Button>

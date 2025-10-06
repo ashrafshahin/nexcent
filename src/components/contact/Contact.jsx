@@ -8,11 +8,11 @@ const Contact = () => {
   return (
       <div className='py-[32px] bg-[#F5F7FA] font-primary'>
           <Container>
-              <div className='text-center'>
-                  <h2 className='w-[887px] mx-auto font-semibold text-[64px] text-[#263238]'>Pellentesque suscipit <br /> fringilla libero eu.</h2>
+              <div className='md:text-center'>
+          <h2 className='w-[887px] md:mx-auto font-semibold text-[20px] md:text-[64px] text-[#263238] mb-5 md:mb-0'>Pellentesque suscipit <br /> fringilla libero eu.</h2>
           <Button className='inline-block'>
                       <div className='flex justify-center items-center'>
-                          <p className=' font-semibold text-[20px] text-white mr-2  '>Get a Demo</p>
+                          <p className=' font-semibold md:text-[20px] text-white mr-2  '>Get a Demo</p>
                         < FaLongArrowAltRight className='text-white font-semibold text-[20px]' />
                     </div>
                   </Button>

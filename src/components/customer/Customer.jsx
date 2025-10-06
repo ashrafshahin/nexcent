@@ -19,13 +19,13 @@ const Customer = () => {
           <Container>
               <div className='md:flex justify-between items-center'>
                   <div className='mr-[78px]'>
-                      <img src={teslaImage} alt="" />
+                      <img className='w-[300px] md:w-full' src={teslaImage} alt="" />
                   </div>
                   <div className='w-[70%]'>
-                      <p className='text-pera w-[748px] font-medium'>Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
+                      <p className='text-pera w-[350px] md:w-[748px] font-medium'>Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
                       <h3 className='text-primary w-[748px] font-semibold mt-4 mb-2'>Tim Smith</h3>
                       <p className='text-[#89939E] w-[748px] font-medium' >British Dragon Boat Racing Association</p>
-                      <div className='py-6 flex justify-between items-center'>
+                      <div className='py-6 md:flex justify-between items-center'>
                                 <img src={client1} alt="" />
                                 <img src={client2} alt="" />
                                 <img src={client3} alt="" />

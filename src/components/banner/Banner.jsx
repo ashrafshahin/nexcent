@@ -8,15 +8,15 @@ const Banner = () => {
   return (
     <div className='bg-[#f5f7fa]'>
       <Container >
-      <div className="  font-primary py-[96px] flex justify-between items-center">
+      <div className="font-primary py-[24px] md:py-[96px] md:flex md:justify-between md:items-center">
         <div className='w-[60%]'>
-          <h1 className='font-semibold text-[64px] text-[#4D4D4D] mb-4 '>Lessons and insights <span className='text-green-500'>from 8 years</span></h1>
+          <h1 className='font-semibold md:text-[64px] text-[#4D4D4D] mb-4 '>Lessons and insights <span className='text-green-500'>from 8 years</span></h1>
           <p className='text-4 text-[#717171]'>Where to grow your business as a photographer: site or social media?</p>
           <Button className='px-[32px] py-[14px] inline-block mt-[32px]'>
             <p >Register</p>
           </Button>
       </div>
-      <div className=''>
+      <div className='w-[20px] md:w-full'>
           <img src={banner} alt="" />
       </div>
       </div>

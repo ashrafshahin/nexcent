@@ -30,7 +30,6 @@ function App() {
       <Learn />
       <Help />
       <Design />
-      
       <Customer />
       <Blog />
       <Contact />

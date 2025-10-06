@@ -3,6 +3,7 @@ import logo from "../images/logo.png"
 import Container from '../layouts/Container'
 import Button from '../layouts/Button'
 
+
 const Header = () => {
   return (
     <Container >
@@ -11,7 +12,7 @@ const Header = () => {
       <img src={logo} alt="" />
     </div>
     <div>
-      <ul className='flex '>
+          <ul className='flex justify-between items-center '>
         <li className='mr-10'><a href="">Home</a></li>
         <li className='mr-10'><a href="">Service</a></li>
         <li className='mr-10'><a href="">Feature</a></li>

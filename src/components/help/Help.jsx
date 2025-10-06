@@ -10,17 +10,17 @@ const Help = () => {
   return (
     <div className='py-[64px] bg-[#F5F7FA] font-primary'>
       <Container>
-        <div className='md:flex justify-between items-center'>
-          <div>
-            <h2 className='w-[408px] font-semibold text-[36px] text-header'>Helping a local <br /> <span className='text-primary '>business reinvent itself</span></h2>
-            <p className='mt-2 text-[#18191F]'>We reached here with our hard work and dedication</p>
+        <div className='md:flex justify-between items-center '>
+          <div className='mb-4 md:mb-0'>
+            <h2 className='w-[408px] font-semibold text-[20px] md:text-[36px] text-header'>Helping a local <br /> <span className='text-primary '>business reinvent itself</span></h2>
+            <p className='mt-2 text-[#18191F] text-[12px] md:text-[16px]'>We reached here with our hard work and dedication</p>
           </div>
           <div className='w-[50%]'>
-            <div className='flex justify-start items-center mb-10'>
-              <div className='flex justify-start items-center'>
+            <div className='md:flex justify-start items-center mb-10'>
+              <div className='flex justify-start items-center mb-4 md:mb-0'>
                 <img src={help1} alt="" />
                 <div className='ml-2'>
-                  <h5 className='w-[191px] font-bold text-[28px] text-header'>2,245,341</h5>
+                  <h5 className='w-[191px] font-bold md:text-[28px] text-header'>2,245,341</h5>
                   <p className='w-[191px]  text-[16px] text-pera'>Members</p>
                 </div>
 
@@ -28,17 +28,17 @@ const Help = () => {
               <div className='flex justify-start items-center'>
                 <img src={help2} alt="" />
                 <div className='ml-2'>
-                  <h5 className='w-[191px] font-bold text-[28px] text-header'>46,328</h5>
+                  <h5 className='w-[191px] font-bold md:text-[28px] text-header'>46,328</h5>
                   <p className='w-[191px]  text-[16px] text-pera'>Clubs</p>
                 </div>
 
               </div>
             </div>
-            <div className='flex justify-start items-center'>
-              <div className='flex justify-start items-center'>
+            <div className='md:flex justify-start items-center'>
+              <div className='flex justify-start items-center mb-4 md:mb-0'>
                 <img src={help3} alt="" />
                 <div className='ml-2'>
-                  <h5 className='w-[191px] font-bold text-[28px] text-header'>828,867</h5>
+                  <h5 className='w-[191px] font-bold md:text-[28px] text-header'>828,867</h5>
                   <p className='w-[191px]  text-[16px] text-pera'>Event Bookings</p>
                 </div>
 
@@ -46,7 +46,7 @@ const Help = () => {
               <div className='flex justify-start items-center'>
                 <img src={help4} alt="" />
                 <div className='ml-2'>
-                  <h5 className='w-[191px] font-bold text-[28px] text-header'>1,926,436</h5>
+                  <h5 className='w-[191px] font-bold md:text-[28px] text-header'>1,926,436</h5>
                   <p className='w-[191px]  text-[16px] text-pera'>Payments</p>
                 </div>
 
