@@ -19,7 +19,7 @@ const Blog = () => {
                     <div>
                           <div className='relative text-center inline-block mb-22 md:mb-0'>
                         <img src={blog1} alt="" />
-                            <div className='absolute top-[170px] left-[25px] md:w-[317px] mx-auto my-[25px] text-center text-center shadow-lg inline-block bg-[#F5F7FA] rounded-sm'>
+                              <div className='absolute top-[140px] md:top-[170px] left-[25px] md:w-[317px] mx-auto my-[25px] text-center text-center shadow-lg inline-block bg-[#F5F7FA] rounded-sm'>
                                 <p className='w-[285px] mx-auto text-[20px] text-pera p-4 '>Creating Streamlined Safeguarding Processes with OneRen</p>
                                 <div className='flex justify-center items-center mb-4'>
                                     <p className=' font-semibold text-[20px] text-primary mr-2 '>Readmore</p>
@@ -32,7 +32,7 @@ const Blog = () => {
                       <div>
                           <div className=' relative text-center inline-block mb-22 md:mb-0'>
                               <img src={blog2} alt="" />
-                              <div className='absolute top-[170px] left-[25px] md:w-[317px] mx-auto my-[25px] text-center text-center shadow-lg inline-block bg-[#F5F7FA] rounded-sm'>
+                              <div className='absolute top-[140px] md:top-[170px] left-[25px] md:w-[317px] mx-auto my-[25px] text-center text-center shadow-lg inline-block bg-[#F5F7FA] rounded-sm'>
                                   <p className='w-[300px] mx-auto text-[20px] text-pera p-4 '>What are your safeguarding responsibilities and how can you manage them?</p>
                                   <div className='flex justify-center items-center mb-4'>
                                       <p className=' font-semibold text-[20px] text-primary mr-2 '>Readmore</p>
@@ -44,7 +44,7 @@ const Blog = () => {
                       <div>
                           <div className=' relative text-center inline-block'>
                               <img src={blog3} alt="" />
-                              <div className='absolute top-[170px] left-[25px] md:w-[317px] mx-auto my-[25px] text-center text-center shadow-lg inline-block bg-[#F5F7FA] rounded-sm'>
+                              <div className='absolute top-[140px] md:top-[170px] left-[25px] md:w-[317px] mx-auto my-[25px] text-center text-center shadow-lg inline-block bg-[#F5F7FA] rounded-sm'>
                                   <p className='w-[285px] mx-auto text-[20px] text-pera p-4 '>Revamping the Membership Model with Triathlon Australia</p>
                                   <div className='flex justify-center items-center mb-4'>
                                       <p className=' font-semibold text-[20px] text-primary mr-2 '>Readmore</p>
