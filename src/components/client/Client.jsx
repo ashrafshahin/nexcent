@@ -13,15 +13,16 @@ const Client = () => {
     <Container>
       <div className='py-[40px] md:items-center md:text-center'>
         <h2 className='font-semibold text-[25px] md:text-[36px] text-header mb-4'>Our Clients</h2>
-        <p className='w-[350px] md:w-full text-4 text-pera mb-4'>We have been working with some Fortune 500+ clients</p>
-        <div className='py-6 flex justify-between items-center'>
-          <img src={client1} alt="" />
-          <img src={client2} alt="" />
-          <img src={client3} alt="" />
-          <img src={client4} alt="" />
-          <img src={client5} alt="" />
-          <img src={client6} alt="" />
-          <img src={client3} alt="" />
+        <p className='w-[300px] md:w-full text-4 text-pera mb-4'>We have been working with some Fortune 500+ clients</p>
+        <div className='py-6 flex grid grid-cols-2 md:grid-cols-7 justify-between items-center'>
+          <img className='' src={client1} alt="" />
+          <img className='' src={client2} alt="" />
+          <img className='' src={client3} alt="" />
+          <img className='' src={client4} alt="" />
+          <img className='' src={client5} alt="" />
+          <img className='' src={client6} alt="" />
+          <img className='' src={client3} alt="" />
+          
         </div>
 
       </div>

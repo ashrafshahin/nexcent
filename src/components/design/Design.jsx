@@ -9,12 +9,12 @@ const Design = () => {
       <Container>
           <div className='py-10 md:flex justify-between items-center'>
               <div>
-                  <img className='w-[300px] md:w-full' src={design} alt="" />
+                  <img className='w-[250px] md:w-full mb-6' src={design} alt="" />
               </div>
-              <div className='w-[50%]  '>
+              <div className='md:w-[50%]  '>
                   <div>
-                      <h2 className=' font-semibold text-[16px] md:text-[36px] text-header justify-start'>How to design your site footer like we did</h2>
-                      <p className='w-[300px] md:w-full mt-4 mb-8 text-[14px] text-pera'>Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
+                      <h2 className='w-[200px] md:w-full font-semibold text-[20px] text-header justify-start'>How to design your site footer like we did</h2>
+                      <p className='w-[270px] md:w-full mt-4 mb-8 text-[14px] text-pera'>Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
                       <Button className='inline-block rounded-sm'>
                           <p>Learn More</p>
                       </Button>
