@@ -16,23 +16,23 @@ const Blog = () => {
                       <p className='w-[350px] md:w-[628px] text-pera md:mx-auto mt-2'>The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>
                   </div>
                   <div className='md:flex justify-between items-center'>
-                      <div>
-                              <div className=' relative text-center inline-block mb-22 md:mb-0'>
-                                  <img src={blog1} alt="" />
-                                  <div className='absolute top-[170px] left-[25px] w-[317px] mx-auto my-[25px] text-center text-center shadow-lg inline-block bg-[#F5F7FA] rounded-sm'>
-                                      <p className='w-[285px] mx-auto text-[20px] text-pera p-4 '>Creating Streamlined Safeguarding Processes with OneRen</p>
-                                      <div className='flex justify-center items-center mb-4'>
-                                          <p className=' font-semibold text-[20px] text-primary mr-2 '>Readmore</p>
-                                          < FaLongArrowAltRight className='text-primary font-semibold text-[20px]' />
-                                      </div>
-                                  </div>
-                              </div>
+                    <div>
+                          <div className='relative text-center inline-block mb-22 md:mb-0'>
+                        <img src={blog1} alt="" />
+                            <div className='absolute top-[170px] left-[25px] md:w-[317px] mx-auto my-[25px] text-center text-center shadow-lg inline-block bg-[#F5F7FA] rounded-sm'>
+                                <p className='w-[285px] mx-auto text-[20px] text-pera p-4 '>Creating Streamlined Safeguarding Processes with OneRen</p>
+                                <div className='flex justify-center items-center mb-4'>
+                                    <p className=' font-semibold text-[20px] text-primary mr-2 '>Readmore</p>
+                                    < FaLongArrowAltRight className='text-primary font-semibold text-[20px]' />
+                                </div>
+                            </div>
+                        </div>
                           
-                      </div>
+                    </div>
                       <div>
                           <div className=' relative text-center inline-block mb-22 md:mb-0'>
                               <img src={blog2} alt="" />
-                              <div className='absolute top-[170px] left-[25px] w-[317px] mx-auto my-[25px] text-center text-center shadow-lg inline-block bg-[#F5F7FA] rounded-sm'>
+                              <div className='absolute top-[170px] left-[25px] md:w-[317px] mx-auto my-[25px] text-center text-center shadow-lg inline-block bg-[#F5F7FA] rounded-sm'>
                                   <p className='w-[300px] mx-auto text-[20px] text-pera p-4 '>What are your safeguarding responsibilities and how can you manage them?</p>
                                   <div className='flex justify-center items-center mb-4'>
                                       <p className=' font-semibold text-[20px] text-primary mr-2 '>Readmore</p>
@@ -44,7 +44,7 @@ const Blog = () => {
                       <div>
                           <div className=' relative text-center inline-block'>
                               <img src={blog3} alt="" />
-                              <div className='absolute top-[170px] left-[25px] w-[317px] mx-auto my-[25px] text-center text-center shadow-lg inline-block bg-[#F5F7FA] rounded-sm'>
+                              <div className='absolute top-[170px] left-[25px] md:w-[317px] mx-auto my-[25px] text-center text-center shadow-lg inline-block bg-[#F5F7FA] rounded-sm'>
                                   <p className='w-[285px] mx-auto text-[20px] text-pera p-4 '>Revamping the Membership Model with Triathlon Australia</p>
                                   <div className='flex justify-center items-center mb-4'>
                                       <p className=' font-semibold text-[20px] text-primary mr-2 '>Readmore</p>

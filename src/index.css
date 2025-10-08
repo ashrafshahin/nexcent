@@ -16,5 +16,8 @@
   display: none !important;
 }
 
+/* body{
+  overflow-x: hidden;
+} */
 
 @import "tailwindcss";

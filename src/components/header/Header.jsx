@@ -13,9 +13,9 @@ const Header = () => {
   const [show, setShow] = useState(false)
 
   return (
-    <>
+    <div className='overflow-x-hidden'>
       <Container >
-        <div className="hidden md:flex justify-between items-center py-[30px] font-primary">
+        <div className="hidden md:flex justify-between items-center py-[30px] font-primary overflow-x-hidden">
 
           <div>
             <img src={logo} alt="" />
@@ -90,7 +90,7 @@ const Header = () => {
 
         </div>
       </Container>
-    </>
+    </div>
   )
 }
 

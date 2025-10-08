@@ -13,7 +13,7 @@ const Footer = () => {
       <div className='py-[64px] bg-[#263238] font-primary text-[#F5F7FA] '>
           <Container>
               <div className='md:flex justify-between'>
-                  <div className='w-[35%]'>
+                  <div className='md:w-[35%]'>
                       <img className='mb-10' src={logo2} alt="" />
                       <p>Copyright © 2025 Nexcent ltd.</p>
                       <p className='py-2'>All rights reserved | Powered by Shahin</p>
@@ -45,7 +45,7 @@ const Footer = () => {
                           <li className='w-[160px] text-[14px] mb-3'><a href="">Status</a></li>
                       </ul>
                   </div>
-                  <div className='w-[25%]'>
+                  <div className='md:w-[25%]'>
                       <h4 className='w-[160px] font-semibold text-[20px] mb-6'>Stay up to date</h4>
                       <Button className='bg-white/20'>
                           <div className='flex justify-between items-center '>
