@@ -16,7 +16,7 @@ const Help = () => {
             <p className='mt-2 text-[#18191F] text-[12px] md:text-[16px]'>We reached here with our hard work and dedication</p>
           </div>
           <div className='md:w-[50%]'>
-            <div className='md:flex grid grid-cols-2 justify-start items-center mb-10'>
+            <div className='md:flex justify-start items-center mb-10'>
               <div className='flex justify-start items-center mb-4 md:mb-0'>
                 <img src={help1} alt="" />
                 <div className='ml-2'>
@@ -34,7 +34,7 @@ const Help = () => {
 
               </div>
             </div>
-            <div className='md:flex grid grid-cols-2 justify-start items-center'>
+            <div className='md:flex justify-start items-center'>
               <div className='flex justify-start items-center mb-4 md:mb-0'>
                 <img src={help3} alt="" />
                 <div className='ml-2'>
